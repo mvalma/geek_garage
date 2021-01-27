@@ -1,18 +1,50 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+/*test the size of the screen and display the good size of grid*/
 
+@media screen and (min-width: 480px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
 
 body {
     background-color: #dfe0df;
+    font-family: "Space Mono";
 }
 
-/* logo-acs-black 2 */
+.header {
 
-logo-acs {
-    position: absolute;
-    width: 182px;
-    height: 50px;
-    left: 1350px;
-    top: 34px;
+}
+
+.menu {
+
+}
+
+.menu-item {
+
+}
+
+.container {
+
+}
+
+.header-logo {
+
+}
+
+.header-baseline {
+
+}
+
+.header-baseline-l {
+
+}
+
+.header-baseline-l2 {
+
 }
