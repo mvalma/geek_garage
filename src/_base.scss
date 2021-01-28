@@ -1,18 +1,27 @@
 // define the style for all basics elements : (html, body, form, input, etc.)
 // NO CLASS, NO ID
 
+*::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   background-color: #dfe0df;
   font-family: "Space Mono", monospace;
   color: black;
   font-size: 24px;
-  line-height: 35.5px;
   text-align: justify;
+}
+
+a {
+  color:inherit; // hérite du parent
+  text-decoration: none;
 }
 
 h1 {
   font-size: 72px;
   line-height: 106px;
   text-align: center;
-  color: FCFF00;
+  color: #FCFF00;
 }

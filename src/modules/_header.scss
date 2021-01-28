@@ -1,5 +1,31 @@
 .header {
-  width: 100%;
-  background: url(../assets/img/RTgeekrepair.png) center top repeat;
+  background: url(../assets/img/RTgeekrepair.png);
   background-size: cover;
+}
+
+.header-logo {
+  display: block; //transform the image in a block element
+  float: right; //fix it to the right
+}
+
+.menu {
+  font-size: 36px;
+  line-height: 53px;
+  color: #21174A;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+}
+
+li {
+  &:before {
+    content:'|';
+    display: inline-block;
+    padding: 0 37px;
+  }
+  &:first-child:before {
+    display:none;
+  }
 }
