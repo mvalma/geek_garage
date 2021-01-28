@@ -1,0 +1,145 @@
+
+Projet - Geek Garage
+Description du projet Geek Garage
+Projet Geek Garage
+Créé le 21/01/2021
+
+La maquette doit etre rendue pour le mardi 26 janvier 2021
+La partie web doit être rendue pour le jeudi 4 février 2021
+
+
+Voici la liste des sites :
+
+GRAY : 1 Rue Gambetta, 70100 Gray
+VIENNE : Immeuble Apollo, 30 Avenue Général Leclerc, 38200 Vienne
+BEYNOST : 110 Rue du Chat Botté, 01700 Beynost
+
+Bon code :)
+
+
+
+	
+
+THÈMES
+Phothoshop, HTML, CSS, JavaScript, PHP, SQL.
+	LIVRABLE
+Maquette de l'application, Application Web 	ÉVALUATION
+Qualité du livrable
+Quizz
+
+
+Description du projet
+
+Vous allez créer un site web qui permettra de prendre un rendez-vous suivant un lieu sélectionné sur une carte interactive pour une réparation d'ordinateur.
+
+Le projet est une page de type One Page. Il y a une partie administration pour gérer les rendez-vous.
+
+Processus de l'application
+
+        L'utilisateur sélectionne un centre pour la réparation de son ordinateur
+
+        Quand il cliquera sur le centre, une pop-up s’afficher avec les informations
+
+            Coordonnées
+
+            Position géographique
+
+            Horaire
+
+            Un bouton "Nous Contacter"
+
+        L'utilisateur cliquera sur le bouton, une pop-up affichera un formulaire avec les champs :
+
+            Nom et prénom
+
+            Coordonnées
+
+            Commentaires
+
+        Une fois le formulaire soumis, un email sera envoyé sur une adresse email.
+
+        Une alerte s’affichera un message de succès si le mail est envoyé, ou une alerte si le message en cas de problème.
+
+
+Fonctionnalités
+
+        L'administrateur doit pouvoir se connecter au back-office.
+
+        L'administrateur doit pouvoir via un formulaire créer un lieu de réparation.
+
+        L'administrateur doit pouvoir modifier et supprimer un lieu de réparation.
+
+
+    L'utilisateur pourra sélectionner le lieu du rendez-vous sur une carte interactive (OpenStreetMap).
+
+    L'utilisateur devra remplir un formulaire qui lui permettra de décrire son problème.
+
+
+
+Les +
+
+    Envoyer un email à l'utilisateur pour confirmer la prise de son rendez-vous
+
+    Dans l'interface Admin lister les prochains rendez-vous et le nombre de jours restants avant le rendez-vous.
+
+    Dans l’interface admin, lister les rendez-vous par centre.
+
+    Faire en sorte de ne plus avoir besoin de la latitude et longitude dans la base de données.
+
+    Ajouter une relation de type OneToMany. Un centre a / peut avoir plusieurs rendez-vous.
+
+
+
+
+
+Objectifs d'apprentissage
+
+        Concevoir une maquette avec Photoshop
+
+        Intégrer une maquette
+
+        Programmer en PHP
+
+        Utilisation d'un service tiers tel que OpenStreetMap
+
+        Programmer en Javascript
+
+        Créer des requêtes SQL / utilisation de la base de données.
+
+
+
+Objectifs opérationnels
+
+A la fin du projet vous saurez :
+
+    Maquetter une application
+    Développer la partie front-end d’une interface utilisateur web
+    Développer la partie back-end d’une interface utilisateur web
+    Concevoir une base de données
+    Mettre en place une base de données
+    Développer des composants dans le langage d’une base de données
+    Développer des composants d’accès aux données
+
+
+Évaluation
+
+Dès que vous avez fini la maquette, vous devrez présenter devant un jury (coach). La même chose pour la partie web.
+Vous devrez parler des technologies que vous avez utiliser et comment est-ce que vous avez procédé pour régler les problèmes rencontrés.
+Un quiz permettra d'évaluer vos connaissances sur les notions développées dans ce projet.
+
+C'est parti !
+
+Durant toutes les étapes :
+
+    Faites un point régulier avec les autres apprenants.
+
+    Faites un Trello de vos différentes tâches, même si c'est un projet individuel.
+
+    Vous êtes en difficulté ? Demandez à un apprenant de votre groupe de vous expliquer.
+
+    Vous avez compris ? Prenez le temps d'aider un autre apprenant.
+
+    Vous avez terminé ? Faites les bonus.
+
+    Tout le long du projet versionner votre code sur Github ! En anglais, et nommer vos commits (fix / style / refactor / doc / feat...), faites des branches, des merges...
+
