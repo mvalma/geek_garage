@@ -1,14 +1,18 @@
 // define the style for all basics elements : (html, body, form, input, etc.)
 // NO CLASS, NO ID
 
-*::before, *::after {
+/*
+body:before, body:after {
   box-sizing: border-box;
   margin: 0;
-}
+  padding: 0;
+}*/
+
 
 body, html {
   height: 100%;
-  margin: 0;
+  margin: 0; //todo
+  padding: 0; //todo
   background-color: #dfe0df;
   font-family: "Space Mono", monospace;
   color: black;
