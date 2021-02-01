@@ -1,18 +1,8 @@
 // define the style for all basics elements : (html, body, form, input, etc.)
 // NO CLASS, NO ID
 
-/*
-body:before, body:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}*/
-
-
 body, html {
   height: 100%;
-  margin: 0; //todo
-  padding: 0; //todo
   background-color: #dfe0df;
   font-family: "Space Mono", monospace;
   color: black;
@@ -29,5 +19,8 @@ h1 {
   font-size: 72px;
   line-height: 106px;
   text-align: center;
+}
+
+.header-baseline-l2 {
   color: #FCFF00;
 }

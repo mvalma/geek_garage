@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -7,20 +6,10 @@
     <title>GEEK GARAGE</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="../assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="../assets/fontawesome/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="../src/style.css">
 </head>
-
-<!--to check that the browser is up to date and if it's not propose the update-->
-<script>
-    var $buoop = {required:{e:-4,f:-3,o:-3,s:-1,c:-3},insecure:true,api:2021.01 };
-    function $buo_f(){
-        var e = document.createElement("script");
-        e.src = "//browser-update.org/update.min.js";
-        document.body.appendChild(e);
-    };
-    try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
-    catch(e){window.attachEvent("onload", $buo_f)}
-</script>
 
     <body>
 
@@ -32,14 +21,13 @@
                     <Li class="header-li"><a href="#" class="menu-item">CENTRES</a></Li>
                     <li class="header-li"><a href="#" class="menu-item">PROJET</a></li>
                     <li class="header-li"><a href="#" class="menu-item">CONTACT</a></li>
-                    <div class="l-container">
-                        <p>En partenariat avec</p>
-                        <a href="#" class="header-logo">
-                            <img src="../assets/img/logo-acs-black.png">
-                        </a>
-                    </div>
                 </ul>
-
+                <div class="l-container">
+                    <p>En partenariat avec</p>
+                    <a href="#" class="header-logo">
+                        <img src="../assets/img/logo-acs-black.png">
+                    </a>
+                </div>
 
             </nav>
 
@@ -59,9 +47,9 @@
             <!--separator 1 screwdriver-->
 
             <section id="separator_one">
-                <div class="separator"><hr></div>
-                <img class="separator-icon" src="../assets/img/screwdriver-solid.png">
-                <div class="separation"><hr></div>
+                <div class="separator"><hr class="hr-left"></div>
+                <i class="fas fa-hammer"></i>
+                <div class="separation"><hr clas="hr-right"></div>
             </section>
 
 
