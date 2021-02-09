@@ -1,5 +1,20 @@
+//todo : aligner au centre
+
 i.fas {
   width: 51px;
   height: 51px;
   color: #535353;
 }
+
+.logo {
+  content: url("../assets/img/screwdriver-solid.svg");
+}
+
+/*
+.hr--logo {
+  border-top: solid red 1px;
+  margin: 50px 0;
+}
+.hr--logo:after {
+  content: url("../../assets/img/screwdriver-solid.svg");
+}*/
